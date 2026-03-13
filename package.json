@@ -4,7 +4,7 @@
   "description": "Développer une application de messagerie instantanée permettant des discussions en groupe et des messages privés (DMs) entre utilisateurs connectés.",
   "main": "index.js",
   "scripts": {
-  "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/Shazam72/chatty#readme",
   "devDependencies": {
     "concurrently": "^9.2.1"
+  },
+  "dependencies": {
+    "react-icons": "^5.6.0"
   }
 }
